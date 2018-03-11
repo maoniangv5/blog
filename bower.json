@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "description": "",
+  "main": "",
+  "authors": [
+    "maoniangv5 <chenpeng8i3@163.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/maoniangv5/blog",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "font-awesome": "^5.0.8",
+    "editor.md": "^1.5.0",
+    "bootstrap": "^4.0.0"
+  }
+}
