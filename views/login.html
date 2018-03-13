@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/floating-labels.css">
+    <style>
+        .code {
+            width: 50%;
+            float: left;
+        }
+        .code-lable {
+            text-align: center
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form class="form-signin" action="/login" method="POST">
+            <div class="text-center mb-4">
+                <img class="mb-4" src="/img/logo/logo.png" alt="" width="72" height="72">
+            </div>
+            <div class="form-label-group">
+                <input type="text" id="username" name="username" class="form-control" placeholder="用户名" required>
+                <label for="username">用户名</label>
+            </div>
+            <div class="form-label-group">
+                <input type="password" id="password" name="password" class="form-control" placeholder="密码" required>
+                <label for="password">密 码</label>
+            </div>
+            <div class="form-label-group code">
+                <img src="code" onclick="this.src='code?'+Math.random()">
+            </div>
+            <div class="form-label-group code">
+                <input type="text" id="code" name="code" class="form-control" placeholder="验证码" required>
+                <label for="code">验证码</label>
+            </div>
+
+            <div class="">
+                    <button id="signup" class="btn btn-lg btn-primary btn-block" type="submit">注 册</button>
+                </div>
+        </form>
+    </div>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
